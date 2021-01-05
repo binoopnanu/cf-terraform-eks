@@ -1,11 +1,11 @@
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "ap-southeast-2a"
 }
 
 variable "cluster_name" {
   type    = string
-  default = "devops-catalog"
+  default = "anz-cf-tr"
 }
 
 variable "k8s_version" {
@@ -20,12 +20,12 @@ variable "release_version" {
 
 variable "min_node_count" {
   type    = number
-  default = 3
+  default = 1
 }
 
 variable "max_node_count" {
   type    = number
-  default = 9
+  default = 2
 }
 
 variable "machine_type" {
