@@ -6,7 +6,7 @@ terraform {
   backend "s3" {
     bucket = "anz-cf-state"
     key    = "cf-state/eks-v1"
-    region = "ap-southeast-2a"
+    region = "ap-southeast-2"
   }
 }
 
